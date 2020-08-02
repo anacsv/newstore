@@ -1,6 +1,8 @@
-def __init__(self, class_):
-    # Create and nominate archive in the database
-    self.__path_archive = f'newstore/dao/db/{class_.__name__}.txt'
+class BaseDao:
+
+    def __init__(self, class_):
+        # Create and nominate archive in the database
+        self.__path_archive = f'newstore/dao/db/{class_.__name__}.txt'
 
     # CRUD - Create
     def create(self, model):
