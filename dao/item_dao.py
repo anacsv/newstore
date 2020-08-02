@@ -1,5 +1,5 @@
 from model.item import Item
-from .base_dao import BaseDao
+from dao.base_dao import BaseDao
 
 class ItemDao(BaseDao):
 
